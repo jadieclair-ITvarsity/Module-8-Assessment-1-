@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form app</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <h1>Welcome to IT Varsity!</h1>
+    <h3>Kindly Login below</h3>
+    <div class="container">
+      <div>
+        <img src="./images/login.jpg" alt="" />
+      </div>
+
+      <!-- Form -->
+
+      <div class="form-input">
+        <form>
+          <input
+            type="text"
+            placeholder="User Name"
+            id="userName"
+            name="userName"
+            required
+          />
+          <br />
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            name="password"
+            required
+          />
+          <p id="message"></p>
+          <br />
+          <a href="#" onclick="verifyUser()">Login</a>
+        </form>
+      </div>
+    </div>
+
+    <!-- Dummy data  -->
+
+    <p class="dummy-data">
+      Dummy data - <br />
+      User Name: Class <br />
+      Password: 2024
+    </p>
+    <script src="./script.js"></script>
+  </body>
+</html>
